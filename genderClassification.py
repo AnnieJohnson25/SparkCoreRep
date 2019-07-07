@@ -12,3 +12,4 @@ clf=clf.fit(X,Y)
 
 #we use the variable: prediction to store the result of the new values which are compared to our tree values to predict the gender
 prediction=clf.predict([[190,70,43]])
+print(prediction)
